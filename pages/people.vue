@@ -1,10 +1,10 @@
 <template>
-  <p>Index</p>
+  <p>People</p>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 
 @Component
-export default class HomePage extends Vue {}
+export default class PeoplePage extends Vue {}
 </script>
