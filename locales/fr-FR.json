@@ -1,0 +1,54 @@
+{
+  "layouts": {
+    "default": {
+      "header": {
+        "menu-links": {
+          "home": "Accueil",
+          "gallery": "La galllerie",
+          "people": "L'équipe",
+          "contact": "Contact"
+        }
+      },
+      "footer": {
+        "logo-text": "Association à but non lucratif",
+        "instagram-text": "Notre Instagram"
+      }
+    }
+  },
+  "pages": {
+    "home": {
+      "welcome": {
+        "title": "Bienvenue chez paintatreeplantatree",
+        "subtitle": "Chez paintatreeplantatree, nous peignons des arbres, nous plantons des arbres et nous écrivons même des de la poétree.",
+        "lists": [
+          {
+            "label": "Nous souhaitons partager avec les enfants",
+            "items": [
+              "l'importance des arbres dans le monde,",
+              "les joies de la peinture – surtout des arbres, pour que les enfants apprennent à mieux les connaître, leurs troncs, leurs feuilles, leurs fleurs, leurs fruits, les oiseaux qui chantent depuis leurs branches, les papillons perchés sur leurs feuilles, les hiboux abrités dans leurs troncs...., et",
+              "l'émerveillement de planter un arbre et de le regarder grandir"
+            ]
+          },
+          {
+            "label": "dans l'espoir que cela:",
+            "items": [
+              "renforce le lien des enfants avec Mère Nature",
+              "renforce leur engagement, aujourd'hui et plus tard, pour la protection de notre planète, et tout cela",
+              "en créant de l'art."
+            ]
+          }
+        ]
+      },
+      "program": {
+        "title": "Le programme",
+        "texts": [
+          "<span class=\"bold\">Le programme paintatreeplantatree est parfait pour les enfants âgés de 4 à 12 ans environ.</span>",
+          "Il consiste en des <span class=\"bold\">ateliers d'environ 1 heure qui peuvent être organisés sur une base mensuelle</span> au cours d'une année scolaire par exemple, mais qui peuvent aussi s'intégrer dans d'autres programmes pour enfants.",
+          "Un arbre est présenté aux enfants à chaque atelier avec l'aide du matériel paintatreeplantatree, y compris par exemple l'arbre de vie, le pin parasol et le cerisier du Japon. Grâce à ce matériel, les enfants apprennent des faits intéressants sur l'arbre : où il pousse, ses fruits, ses amis animaux, son symbolisme, sa hauteur et sa largeur, et surtout, comment il nous aide, nous les êtres humains et ses amis animaux - l'oxygène qu'il fabrique, l'ombre et l'abri qu'il fournit, les fruits qu'il porte, l'eau qu'il stocke, la paix et le calme qu'il procure, les médicaments et la musique qu'il produit et bien d'autres choses encore.",
+          "Les enfants sont ensuite invités à peindre l'arbre à leur manière. Ils peuvent utiliser de l'acrylique, de la gouache, de l'aquarelle, des crayons de couleur, des feutres, leurs doigts, leurs mains ou leurs pieds et leurs orteils s'ils préfèrent - tout ce qu'ils veulent - à condition que paintatreeplantatree reçoive une photo de leur œuvre pour l'exposer sur la galerie <a href=\"https://www.instagram.com/paintatreeplantatree/\" target=\"_blank\">Instagram de paintatreeplantatree</a> !",
+          "Et enfin, <span class=\"bold\">le temps d'un atelier, quelque part près des enfants, avec l'autorisation des autorités locales si nécessaire, cerise sur le gâteau, on plante un arbre</span>. Et jour après jour, on le regarde grandir."
+        ]
+      }
+    }
+  }
+}

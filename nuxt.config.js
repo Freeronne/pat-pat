@@ -41,9 +41,23 @@ export default {
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
+    '@nuxtjs/i18n',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
   build: {
+  },
+
+  // i18n configuration: https://i18n.nuxtjs.org/
+  i18n: {
+    locales: ['fr', 'en'],
+    defaultLocale: 'fr',
+    vueI18n: {
+      fallbackLocale: 'fr',
+      messages: {
+        fr: require('./locales/fr-FR.json'),
+        en: require('./locales/en-US.json'),
+      }
+    }
   }
 }
