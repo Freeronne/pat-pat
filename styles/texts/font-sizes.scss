@@ -1,0 +1,25 @@
+.fs {
+  &--extra-large {
+    font-size: var(--font-size-extra-large);
+  }
+
+  &--large {
+    font-size: var(--font-size-large);
+  }
+
+  &--medium {
+    font-size: var(--font-size-medium);
+  }
+
+  &--base {
+    font-size: var(--font-size-base);
+  }
+
+  &--small {
+    font-size: var(--font-size-small);
+  }
+
+  &--extra-small {
+    font-size: var(--font-size-extra-small);
+  }
+}

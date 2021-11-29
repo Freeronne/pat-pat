@@ -1,5 +1,19 @@
-@import "fonts.scss";
-@import "variables.scss";
+@import "colors/texts";
+
+@import "displays/elements";
+@import "displays/flex";
+
+@import "spaces";
+
+@import "texts/font-sizes";
+@import "texts/font-weights";
+@import "texts/transformations";
+
+@import "ui/card";
+
+@import "cursors";
+@import "fonts";
+@import "variables";
 
 html {
   font-family: var(--font-family);
@@ -16,6 +30,30 @@ body {
   padding: 0;
 }
 
+h1,
+h2,
+h3 {
+  margin-top: 0;
+}
+
+h1, h2 {
+  font-size: var(--font-size-extra-large);
+}
+
 p {
   margin: 0;
+}
+
+p,
+ul {
+  font-size: var(--font-size-base);
+}
+
+a {
+  color: inherit;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1080px;
 }
