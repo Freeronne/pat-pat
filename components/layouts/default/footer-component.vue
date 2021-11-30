@@ -1,7 +1,15 @@
 <template>
-  <header>
-    <p>Footer</p>
-  </header>
+  <footer>
+    <div class="container d-flex justify--space-between align--center full-height">
+      <div>
+        <p>{{ $t('layouts.default.footer.logo-text') }}</p>
+      </div>
+
+      <div>
+        <p>{{ $t('layouts.default.footer.instagram-text') }}</p>
+      </div>
+    </div>
+  </footer>
 </template>
 
 <script lang="ts">
@@ -12,8 +20,9 @@ export default class HeaderComponent extends Vue {}
 </script>
 
 <style scoped lang="scss">
-header {
+footer {
   height: 17rem;
   background-color: var(--color-footer);
+  color: var(--color-white);
 }
 </style>

@@ -1,8 +1,10 @@
 <template>
   <div class="default-layout">
     <header-component />
-    <div class='content'>
-      <nuxt />
+    <div class="content-wrapper">
+      <div class="content container py-8">
+        <nuxt />
+      </div>
     </div>
     <footer-component />
   </div>
@@ -25,8 +27,13 @@ export default class DefaultLayout extends Vue {}
   flex-direction: column;
   min-height: 100vh;
 
-  .content {
+  .content-wrapper {
     flex: 1;
+    background-color: #f4f2ea; // TODO: Update with background image
+
+    .content {
+      color: var(--color-base-text);
+    }
   }
 }
 </style>

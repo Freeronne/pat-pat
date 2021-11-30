@@ -1,5 +1,5 @@
 <template>
-  <p>People</p>
+  <p>Contact</p>
 </template>
 
 <script lang="ts">
