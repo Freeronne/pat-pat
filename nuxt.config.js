@@ -42,6 +42,7 @@ export default {
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     '@nuxtjs/i18n',
+    'vue-screen/nuxt',
   ],
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -59,5 +60,10 @@ export default {
         en: require('./locales/en-US.json'),
       }
     }
-  }
+  },
+
+  // Vue screen configuration https://www.npmjs.com/package/vue-screen
+  screen: {
+    extend: 'bootstrap',
+  },
 }

@@ -1,24 +1,32 @@
 <template>
   <div class="default-layout">
-    <header-component />
+    <desktop-header-component v-if="$screen.lg" />
+    <mobile-header-component v-else :class="paddingClass" />
+
     <div class="content-wrapper">
-      <div class="content container py-8">
+      <div class="content container py-8" :class="paddingClass">
         <nuxt />
       </div>
     </div>
-    <footer-component />
+
+    <footer-component :class="paddingClass" />
   </div>
 </template>
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
-import HeaderComponent from '~/components/layouts/default/header-component.vue'
+import DesktopHeaderComponent from '~/components/layouts/default/desktop/header-component.vue'
+import MobileHeaderComponent from '~/components/layouts/default/mobile/header-component.vue'
 import FooterComponent from '~/components/layouts/default/footer-component.vue'
 
 @Component({
-  components: { FooterComponent, HeaderComponent },
+  components: { DesktopHeaderComponent, FooterComponent, MobileHeaderComponent },
 })
-export default class DefaultLayout extends Vue {}
+export default class DefaultLayout extends Vue {
+  get paddingClass() {
+    return 'px-5';
+  }
+}
 </script>
 
 <style scoped lang="scss">
