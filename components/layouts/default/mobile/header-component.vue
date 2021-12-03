@@ -15,23 +15,48 @@
     </header>
 
     <transition name="mobile-menu">
-      <div v-if="isMenuActive" class="mobile-menu flex--center">
-        <p>Links</p>
+      <div v-if="isMenuActive" class="mobile-menu flex--center flex--column">
+        <nuxt-link
+          v-for="menuLink in menuLinks"
+          :key="menuLink.label"
+          :to="menuLink.path"
+          :class="linksClasses"
+        >
+          {{ menuLink.label }}
+        </nuxt-link>
+
+        <nuxt-link
+          v-for="locale in availableLocales"
+          :key="locale"
+          :to="switchLocalePath(locale)"
+          :class="linksClasses"
+        >
+          {{ locale }}
+        </nuxt-link>
       </div>
     </transition>
   </div>
 </template>
 
 <script lang="ts">
-import { Component, mixins } from 'nuxt-property-decorator';
+import { Component, mixins, Watch } from 'nuxt-property-decorator';
 import HeaderMixin from '~/mixins/layouts/default/header-mixin'
 
 @Component
 export default class MobileHeaderComponent extends mixins(HeaderMixin) {
   isMenuActive = false;
 
+  @Watch('$route')
+  onRouteChanged() {
+    if (this.isMenuActive) this.isMenuActive = false;
+  }
+
   toggleMenuActive() {
     this.isMenuActive = !this.isMenuActive;
+  }
+
+  get linksClasses() {
+    return 'py-4 fs--large text--no-decoration text--uppercase'
   }
 }
 </script>
