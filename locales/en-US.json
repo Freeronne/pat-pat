@@ -49,6 +49,20 @@
           "And finally, <span class=\"bold\">during one workshop, somewhere close to the kids, with the authorization of local authorities if necessary, the cherry on the cake, we plant a tree</span>. And day by day watch it grow."
         ]
       }
+    },
+    "gallery": {
+      "paint-a-tree": {
+        "title": "Paint a Tree",
+        "subtitle": "Paintings of our young eco-artists on the Instagram paintatreeplantatree gallery"
+      },
+      "plant-a-tree": {
+        "title": "Plant a Tree",
+        "subtitle": "Trees planted by our young eco-artists"
+      },
+      "instagram": {
+        "title": "Join us on instagram!",
+        "subtitle": "We post content there regularly"
+      }
     }
   }
 }

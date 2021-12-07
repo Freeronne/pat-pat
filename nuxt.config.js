@@ -49,6 +49,11 @@ export default {
   build: {
   },
 
+  // Env configuration: https://nuxtjs.org/docs/configuration-glossary/configuration-env/
+  env: {
+    INSTAFEED_ACCESS_TOKEN: process.env.INSTAFEED_ACCESS_TOKEN,
+  },
+
   // i18n configuration: https://i18n.nuxtjs.org/
   i18n: {
     locales: ['fr', 'en'],

@@ -49,6 +49,20 @@
           "Et enfin, <span class=\"bold\">le temps d'un atelier, quelque part près des enfants, avec l'autorisation des autorités locales si nécessaire, cerise sur le gâteau, on plante un arbre</span>. Et jour après jour, on le regarde grandir."
         ]
       }
+    },
+    "gallery": {
+      "paint-a-tree": {
+        "title": "Peindre un arbre",
+        "subtitle": "Peintures de nos jeunes éco-artistes sur la galerie Instagram paintatreeplantatree"
+      },
+      "plant-a-tree": {
+        "title": "Planter un arbre",
+        "subtitle": "Arbres plantés par nos jeunes éco-artistes"
+      },
+      "instagram": {
+        "title": "Rejoignez-nous sur instagram!",
+        "subtitle": "Nous y postons du contenu régulièrement"
+      }
     }
   }
 }
