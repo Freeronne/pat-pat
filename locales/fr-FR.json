@@ -53,11 +53,43 @@
     "gallery": {
       "paint-a-tree": {
         "title": "Peindre un arbre",
-        "subtitle": "Peintures de nos jeunes éco-artistes sur la galerie Instagram paintatreeplantatree"
+        "subtitle": "Peintures de nos jeunes éco-artistes sur la galerie Instagram paintatreeplantatree",
+        "projects": {
+          "silver-birch-tree": {
+            "title": "Silver birch tree",
+            "description": "Well done to the young eco-artists of the Centre de Loisirs of Saint-Germain-l'Herm (Auvergne) for their paintings/collages of the silver birch tree that symbolizes purification and renewal and is known as The Lady of the Woods. Their silver bark is so beautiful, no wonder so many owls chose to perch on top of their branches."
+          },
+          "red-maple-tree": {
+            "title": "Red maple tree",
+            "description": "Don't you love all the flowers growing in its shade? Did you know maple sap contains on average 95% water that is excellent for our health? Excellent work by another young eco-artist"
+          },
+          "japanese-cherry-tree": {
+            "title": "Japanese cherry tree",
+            "description": "Bravo to this young eco-artist who really captured the beauty of the blossoms. Did you know the blossoms, known as 'sakura' in Japanese, stand for renewal and hope?"
+          },
+          "japanese-cherry-tree-2": {
+            "title": "Japanese cherry tree",
+            "description": "Three young eco-artists hard at work!"
+          }
+        }
       },
       "plant-a-tree": {
         "title": "Planter un arbre",
-        "subtitle": "Arbres plantés par nos jeunes éco-artistes"
+        "subtitle": "Arbres plantés par nos jeunes éco-artistes",
+        "projects": {
+          "lilac-tree": {
+            "title": "Lilac tree",
+            "description": "Tree planting day. May 5th, 2021. These young ecocitizens @mapetiteecolemontessori are busy digging the hole in which we will plant our lilac tree. We've found a spot with good afternoon sun to help the lilac tree grow and bloom."
+          },
+          "earthworms": {
+            "title": "Earthworms",
+            "description": "These little ecocitizens have met with some wriggly friends whilst digging in the soil where we shall plant our lilac tree. Let's place our underground allies back in the soil to improve its structure and water movement."
+          },
+          "japanese-cherry-tree": {
+            "title": "Japanese cherry tree",
+            "description": "Second tree planted (Japanese cherry tree) in the village of Saint-Germain-l’Herm, in the Puy-de-Dôme by the kids of the local Centre de Loisirs.  Can’t wait for the tree to blossom and the kids to start “hanami” (“flower viewing” in Japanese) and to maybe even enjoy a picnic in its shade."
+          }
+        }
       },
       "instagram": {
         "title": "Rejoignez-nous sur instagram!",

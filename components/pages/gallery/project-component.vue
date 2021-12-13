@@ -1,8 +1,8 @@
 <template>
   <div class="project" :style="{ width }">
     <img :src="project.image" :alt="project.title" class="image-card" :style="{ borderColor: project.color }">
-    <p>{{ project.title }}</p>
-    <p>{{ project.description }}</p>
+    <p class="my-5 bold text--uppercase" :style="{ color: project.color }">{{ project.title }}</p>
+    <p class="m-0">{{ project.description }}</p>
   </div>
 </template>
 
