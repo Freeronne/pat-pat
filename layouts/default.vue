@@ -4,7 +4,7 @@
     <mobile-header-component v-else :class="paddingClass" />
 
     <div class="content-wrapper">
-      <div class="content container py-8" :class="paddingClass">
+      <div class="content container py-16" :class="paddingClass">
         <nuxt />
       </div>
     </div>
