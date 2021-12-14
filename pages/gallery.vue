@@ -1,7 +1,7 @@
 <template>
   <div class="gallery-page">
     <div>
-      <h1 class="fs--extra-large">{{ $t('pages.gallery.paint-a-tree.title') }}</h1>
+      <h1>{{ $t('pages.gallery.paint-a-tree.title') }}</h1>
       <h2 class="mb-10 text--center fs--large">{{ $t('pages.gallery.paint-a-tree.subtitle') }}</h2>
 
       <div class="d-flex justify--space-between flex-wrap">
@@ -10,7 +10,7 @@
     </div>
 
     <div>
-      <h1 class="mt-15 fs--extra-large">{{ $t('pages.gallery.plant-a-tree.title') }}</h1>
+      <h1 class="mt-15">{{ $t('pages.gallery.plant-a-tree.title') }}</h1>
       <h2 class="mb-10 text--center fs--large">{{ $t('pages.gallery.plant-a-tree.subtitle') }}</h2>
 
       <div class="d-flex justify--space-between flex-wrap">
