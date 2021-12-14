@@ -7,19 +7,19 @@ export default class HeaderMixin extends Vue {
     return [
       {
         label: this.$t('layouts.default.header.menu-links.home'),
-        path: this.localePath(Routes.Home.name),
+        path: this.localePath(Routes.Home.name, this.$i18n.locale),
       },
       {
         label: this.$t('layouts.default.header.menu-links.gallery'),
-        path: this.localePath(Routes.Gallery.name),
+        path: this.localePath(Routes.Gallery.name, this.$i18n.locale),
       },
       {
         label: this.$t('layouts.default.header.menu-links.people'),
-        path: this.localePath(Routes.People.name),
+        path: this.localePath(Routes.People.name, this.$i18n.locale),
       },
       {
         label: this.$t('layouts.default.header.menu-links.contact'),
-        path: this.localePath(Routes.Contact.name),
+        path: this.localePath(Routes.Contact.name, this.$i18n.locale),
       },
     ];
   }
