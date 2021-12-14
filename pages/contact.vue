@@ -45,14 +45,6 @@ export default class ContactPage extends Vue {}
 
   @include media-max('lg') {
     width: 100%;
-
-    .card {
-      img {
-        position: relative;
-        width: 100%;
-        transform: inherit;
-      }
-    }
   }
 
   .contact-title {
@@ -69,6 +61,12 @@ export default class ContactPage extends Vue {}
       right: 0;
       transform: translateY(-50%);
       width: 60%;
+
+      @include media-max('lg') {
+        position: relative;
+        width: 100%;
+        transform: inherit;
+      }
     }
   }
 }

@@ -1,6 +1,6 @@
 <template>
   <div class="default-layout">
-    <desktop-header-component v-if="$screen.lg" />
+    <desktop-header-component v-if="$screen.lg" :class="paddingClass" />
     <mobile-header-component v-else :class="paddingClass" />
 
     <div class="content-wrapper">
