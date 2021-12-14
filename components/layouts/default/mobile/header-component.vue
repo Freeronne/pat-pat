@@ -140,7 +140,7 @@ $mobile-header-height: 6rem;
   }
 
   .mobile-menu {
-    z-index: 0;
+    z-index: 10;
     position: fixed;
     top: $mobile-header-height;
     left: 0;
