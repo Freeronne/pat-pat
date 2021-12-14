@@ -37,6 +37,8 @@ export default {
     '@nuxt/typescript-build',
     // https://go.nuxtjs.dev/stylelint
     '@nuxtjs/stylelint-module',
+    // https://github.com/nuxt-community/style-resources-module
+    '@nuxtjs/style-resources',
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules
@@ -52,6 +54,13 @@ export default {
   // Env configuration: https://nuxtjs.org/docs/configuration-glossary/configuration-env/
   env: {
     INSTAFEED_ACCESS_TOKEN: process.env.INSTAFEED_ACCESS_TOKEN,
+  },
+
+  // Style resources configuration: https://github.com/nuxt-community/style-resources-module
+  styleResources: {
+    scss: [
+      './styles/shared/*/*.scss',
+    ]
   },
 
   // i18n configuration: https://i18n.nuxtjs.org/

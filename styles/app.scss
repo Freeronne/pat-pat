@@ -16,7 +16,6 @@
 
 @import "cursors";
 @import "fonts";
-@import "variables";
 
 html {
   font-family: var(--font-family);
@@ -58,5 +57,5 @@ a {
 
 .container {
   margin: 0 auto;
-  max-width: 1080px;
+  max-width: 1220px;
 }
