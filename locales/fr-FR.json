@@ -95,6 +95,18 @@
         "title": "Rejoignez-nous sur instagram!",
         "subtitle": "Nous y postons du contenu régulièrement"
       }
+    },
+    "contact": {
+      "title": "Nous contacter",
+      "texts": [
+        "PAT PAT",
+        "paintatreeplantatree",
+        "Association 1901",
+        "14 rue de Villafranca",
+        "75015 Paris",
+        "Email: <a href=\"mailto:paintatreeplantatree@gmail.com\">paintatreeplantatree@gmail.com</a>",
+        "Instagram : @paintatreeplantatree"
+      ]
     }
   }
 }
