@@ -19,34 +19,35 @@
     "home": {
       "welcome": {
         "title": "Bienvenue chez paintatreeplantatree",
-        "subtitle": "Chez paintatreeplantatree, nous peignons des arbres, nous plantons des arbres et nous écrivons même des de la poétree.",
+        "subtitle": "Chez paintatreeplantatree, nous dessinons des arbres et nous plantons des arbres avec des enfants.",
         "lists": [
           {
-            "label": "Nous souhaitons partager avec les enfants",
+            "label": "Nous souhaitons partager avec les enfants :",
             "items": [
-              "l'importance des arbres dans le monde,",
-              "les joies de la peinture – surtout des arbres, pour que les enfants apprennent à mieux les connaître, leurs troncs, leurs feuilles, leurs fleurs, leurs fruits, les oiseaux qui chantent depuis leurs branches, les papillons perchés sur leurs feuilles, les hiboux abrités dans leurs troncs...., et",
-              "l'émerveillement de planter un arbre et de le regarder grandir"
+              "l'importance des arbres tant dans le monde que dans notre environnement proche,",
+              "les joies de la peinture – et en particulier celle des arbres, pour que les enfants apprennent à mieux connaître ceux-ci… leurs troncs, leurs feuilles, leurs fleurs, leurs fruits, les oiseaux qui chantent depuis leurs branches, les papillons posés sur leurs feuilles, les hiboux abrités dans leurs troncs…, et",
+              "l'émerveillement de planter un arbre puis de le regarder grandir."
             ]
           },
           {
-            "label": "dans l'espoir que cela:",
+            "label": "Notre espoir est que cela :",
             "items": [
-              "renforce le lien des enfants avec Mère Nature",
-              "renforce leur engagement, aujourd'hui et plus tard, pour la protection de notre planète, et tout cela",
-              "en créant de l'art."
+              "renforce le lien des enfants avec Mère Nature,",
+              "renforce leur engagement, aujourd'hui et demain, pour la protection de notre planète, et tout cela en",
+              "développant leur fibre artistique."
             ]
           }
         ]
       },
       "program": {
-        "title": "Le programme",
+        "title": "Le programme :",
         "texts": [
-          "<span class=\"bold\">Le programme paintatreeplantatree est parfait pour les enfants âgés de 4 à 12 ans environ.</span>",
-          "Il consiste en des <span class=\"bold\">ateliers d'environ 1 heure qui peuvent être organisés sur une base mensuelle</span> au cours d'une année scolaire par exemple, mais qui peuvent aussi s'intégrer dans d'autres programmes pour enfants.",
-          "Un arbre est présenté aux enfants à chaque atelier avec l'aide du matériel paintatreeplantatree, y compris par exemple l'arbre de vie, le pin parasol et le cerisier du Japon. Grâce à ce matériel, les enfants apprennent des faits intéressants sur l'arbre : où il pousse, ses fruits, ses amis animaux, son symbolisme, sa hauteur et sa largeur, et surtout, comment il nous aide, nous les êtres humains et ses amis animaux - l'oxygène qu'il fabrique, l'ombre et l'abri qu'il fournit, les fruits qu'il porte, l'eau qu'il stocke, la paix et le calme qu'il procure, les médicaments et la musique qu'il produit et bien d'autres choses encore.",
-          "Les enfants sont ensuite invités à peindre l'arbre à leur manière. Ils peuvent utiliser de l'acrylique, de la gouache, de l'aquarelle, des crayons de couleur, des feutres, leurs doigts, leurs mains ou leurs pieds et leurs orteils s'ils préfèrent - tout ce qu'ils veulent - à condition que paintatreeplantatree reçoive une photo de leur œuvre pour l'exposer sur la galerie <a href=\"https://www.instagram.com/paintatreeplantatree/\" target=\"_blank\">Instagram de paintatreeplantatree</a> !",
-          "Et enfin, <span class=\"bold\">le temps d'un atelier, quelque part près des enfants, avec l'autorisation des autorités locales si nécessaire, cerise sur le gâteau, on plante un arbre</span>. Et jour après jour, on le regarde grandir."
+          "<span class=\"bold\">est parfaitement adapté aux enfants âgés de 4 à 12 ans,</span>",
+          "consiste en des <span class=\"bold\">ateliers d'environ 1 heure qui peuvent être organisés sur une base mensuelle</span> au cours d'une année scolaire par exemple. Les ateliers peuvent aussi s'intégrer dans d'autres programmes pour enfants.",
+          "Un arbre est présenté aux enfants à chaque atelier avec l'aide du matériel paintatreeplantatree. Les enfants découvrent par exemple l'arbre de vie, le pin parasol, le cerisier du Japon et bien d’autres spécimens. Grâce à ce matériel, les enfants apprennent des faits intéressants sur l'arbre étudié : où il pousse, ses fruits, ses amis animaux, son symbolisme, sa hauteur et sa largeur, et surtout, comment il nous aide, nous les êtres humains et ses amis animaux - l'oxygène qu'il fabrique, l'ombre et l'abri qu'il fournit, les fruits qu'il porte, l'eau qu'il stocke, la paix et le calme qu'il procure, les médicaments et la musique qu'il produit et bien d'autres choses encore.",
+          "Les enfants sont ensuite invités à peindre l'arbre à leur manière.  Ils peuvent utiliser de l'acrylique, de la gouache, de l'aquarelle, des crayons de couleur, des feutres, leurs doigts, leurs mains ou leurs pieds s'ils préfèrent - tout ce qu'ils veulent - à condition que paintatreeplantatree reçoive une photo de leur œuvre pour l'exposer sur la <a href=\"https://www.instagram.com/paintatreeplantatree/\" target=\"_blank\">galerie Instagram de paintatreeplantatree</a> !",
+          "Enfin, et cerisier sur le gâteau, <span class=\"bold\">le temps d'un atelier et avec l'autorisation des autorités locales si nécessaire, nous plantons tous ensemble, devinez quoi ? Un arbre !</span>",
+          "Et jour après jour, saison après saison, nous le regardons grandir."
         ]
       }
     },
@@ -102,30 +103,28 @@
         "title": "Le bureau",
         "members": {
           "pascale": {
-            "name": "Pascale Vanhelle",
-            "job-description": "Pascale est la fondatrice de paintatreeplantatree."
+            "name": "Pascale Norris",
+            "job-description": "Pascale Norris est la fondatrice de paintatreeplantatree."
           },
           "arnaud": {
             "name": "Arnaud Vanhelle",
-            "job-description": "Arnaud est le trésorier de paintatreeplantatree."
+            "job-description": "Arnaud Vanhelle est le trésorier de paintatreeplantatree."
           }
         }
       },
       "partners": {
-        "title": "paintatreeplantatree éco-artistes",
+        "title": "Les éco-artistes",
         "text": "Les ambassadeurs de paintatreeplantatree présentent le programme aux enfants et plantent des arbres avec eux dans le monde entier."
       }
     },
     "contact": {
       "title": "Nous contacter",
       "texts": [
-        "PAT PAT",
         "paintatreeplantatree",
-        "Association 1901",
         "14 rue de Villafranca",
         "75015 Paris",
-        "Email: <a href=\"mailto:paintatreeplantatree@gmail.com\">paintatreeplantatree@gmail.com</a>",
-        "Instagram : @paintatreeplantatree"
+        "Courriel: <a href=\"mailto:paintatreeplantatree@gmail.com\">paintatreeplantatree@gmail.com</a>",
+        "Instagram <a href=\"https://www.instagram.com/paintatreeplantatree/\">@paintatreeplantatree</a>"
       ]
     }
   }
