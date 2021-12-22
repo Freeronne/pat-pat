@@ -96,6 +96,26 @@
         "subtitle": "We post content there regularly"
       }
     },
+    "people": {
+      "title": "About",
+      "bureau": {
+        "title": "Le bureau",
+        "members": {
+          "pascale": {
+            "name": "Pascale Vanhelle",
+            "job-description": "Pascale is the founder of paintatreeplantatree."
+          },
+          "arnaud": {
+            "name": "Arnaud Vanhelle",
+            "job-description": "Arnaud is the treasurer of paintatreeplantatree."
+          }
+        }
+      },
+      "partners": {
+        "title": "paintatreeplantatree eco-artists",
+        "text": "Paintatreeplantatree ambassadors are presenting the program to kids and planting trees with them around the world."
+      }
+    },
     "contact": {
       "title": "Contact us",
       "texts": [

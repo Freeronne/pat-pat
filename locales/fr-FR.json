@@ -96,6 +96,26 @@
         "subtitle": "Nous y postons du contenu régulièrement"
       }
     },
+    "people": {
+      "title": "A propos",
+      "bureau": {
+        "title": "Le bureau",
+        "members": {
+          "pascale": {
+            "name": "Pascale Vanhelle",
+            "job-description": "Pascale est la fondatrice de paintatreeplantatree."
+          },
+          "arnaud": {
+            "name": "Arnaud Vanhelle",
+            "job-description": "Arnaud est le trésorier de paintatreeplantatree."
+          }
+        }
+      },
+      "partners": {
+        "title": "paintatreeplantatree éco-artistes",
+        "text": "Les ambassadeurs de paintatreeplantatree présentent le programme aux enfants et plantent des arbres avec eux dans le monde entier."
+      }
+    },
     "contact": {
       "title": "Nous contacter",
       "texts": [
