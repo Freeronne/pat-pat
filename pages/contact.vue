@@ -10,7 +10,7 @@
       <div class="card">
         <p v-for="text in $t('pages.contact.texts')" :key="text" v-html="text" class="mb-4 fs--medium" />
 
-        <img src="@/assets/pages/contact/card-birds.png" alt="">
+        <img src="@/assets/pages/common/birds.png" alt="">
       </div>
     </div>
   </div>
