@@ -1,4 +1,4 @@
-export enum ProjectSize {
-  Base = 'base',
-  Large = 'large',
+export enum ProjectWidths {
+  Base = '30%',
+  Large = '55%',
 }

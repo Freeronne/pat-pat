@@ -1,19 +1,21 @@
 <template>
   <div class="gallery-page">
-    <div>
+    <div class="paint-a-tree">
       <h1>{{ $t('pages.gallery.paint-a-tree.title') }}</h1>
       <h2 class="mb-10 text--center fs--large">{{ $t('pages.gallery.paint-a-tree.subtitle') }}</h2>
 
-      <div class="d-flex justify--space-between flex-wrap">
+      <div class="d-flex justify--center flex-wrap">
         <project-component v-for="project in paintATreeItems" :key="project.color" :project="project" />
       </div>
     </div>
 
-    <div>
+    <img src="@/assets/pages/gallery/hands.png" alt="" class="hands-image mt-16">
+
+    <div class="plant-a-tree">
       <h1 class="mt-15">{{ $t('pages.gallery.plant-a-tree.title') }}</h1>
       <h2 class="mb-10 text--center fs--large">{{ $t('pages.gallery.plant-a-tree.subtitle') }}</h2>
 
-      <div class="d-flex justify--space-between flex-wrap">
+      <div class="d-flex justify--center flex-wrap">
         <project-component v-for="project in plantATreeItems" :key="project.color" :project="project" />
       </div>
     </div>
@@ -23,7 +25,7 @@
       <h4 class="text--center fs--large">{{ $t('pages.gallery.instagram.subtitle') }}</h4>
     </div>
 
-    <div id="instafeed" class="instafeed-container container d-flex justify--space-between" />
+    <div id="instafeed" class="instafeed-container container d-flex flex-wrap justify--space-between" />
   </div>
 </template>
 
@@ -32,7 +34,8 @@ import Instafeed from 'instafeed.js'
 import { Component, Vue } from 'nuxt-property-decorator'
 import { Project } from '~/types/pages/gallery'
 import ProjectComponent from '~/components/pages/gallery/project-component.vue'
-import { ProjectSize } from '~/constants/pages/gallery'
+import { ProjectWidths } from '~/constants/pages/gallery'
+import projectsImages from '@/assets/pages/gallery/projects';
 
 @Component({
   components: { ProjectComponent }
@@ -42,6 +45,11 @@ export default class GalleryPage extends Vue {
     const feed = new Instafeed({
       accessToken: process.env.INSTAFEED_ACCESS_TOKEN,
       limit: 3,
+      template: `
+        <a href="{{link}}" class="instafeed-link">
+          <img title="{{caption}}" src="{{image}}" alt="{{caption}}" />
+        </a>
+      `,
     });
     feed.run();
   }
@@ -50,31 +58,31 @@ export default class GalleryPage extends Vue {
     return [
       {
         color: '#E2C44B',
-        image: 'https://images.unsplash.com/photo-1535673774336-ef95d2851cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80',
+        image: projectsImages.project1,
         title: this.$t('pages.gallery.paint-a-tree.projects.silver-birch-tree.title') as string,
         description: this.$t('pages.gallery.paint-a-tree.projects.silver-birch-tree.description') as string,
-        size: ProjectSize.Base
+        width: ProjectWidths.Base
       },
       {
         color: '#70C8E5',
-        image: 'https://images.unsplash.com/photo-1535673774336-ef95d2851cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80',
+        image: projectsImages.project2,
         title: this.$t('pages.gallery.paint-a-tree.projects.red-maple-tree.title') as string,
         description: this.$t('pages.gallery.paint-a-tree.projects.red-maple-tree.description') as string,
-        size: ProjectSize.Base
+        width: ProjectWidths.Base
       },
       {
         color: '#D66761',
-        image: 'https://images.unsplash.com/photo-1535673774336-ef95d2851cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80',
+        image: projectsImages.project3,
         title: this.$t('pages.gallery.paint-a-tree.projects.japanese-cherry-tree.title') as string,
         description: this.$t('pages.gallery.paint-a-tree.projects.japanese-cherry-tree.description') as string,
-        size: ProjectSize.Base
+        width: ProjectWidths.Base
       },
       {
         color: '#BAB6D3',
-        image: 'https://images.unsplash.com/photo-1535673774336-ef95d2851cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80',
+        image: projectsImages.project4,
         title: this.$t('pages.gallery.paint-a-tree.projects.japanese-cherry-tree-2.title') as string,
         description: this.$t('pages.gallery.paint-a-tree.projects.japanese-cherry-tree-2.description') as string,
-        size: ProjectSize.Large
+        width: ProjectWidths.Large
       },
     ];
   }
@@ -83,24 +91,24 @@ export default class GalleryPage extends Vue {
     return [
       {
         color: '#7CC197',
-        image: 'https://images.unsplash.com/photo-1535673774336-ef95d2851cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80',
+        image: projectsImages.project5,
         title: this.$t('pages.gallery.plant-a-tree.projects.lilac-tree.title') as string,
         description: this.$t('pages.gallery.plant-a-tree.projects.lilac-tree.description') as string,
-        size: ProjectSize.Base
+        width: ProjectWidths.Base
       },
       {
         color: '#BAB6D3',
-        image: 'https://images.unsplash.com/photo-1535673774336-ef95d2851cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80',
+        image: projectsImages.project6,
         title: this.$t('pages.gallery.plant-a-tree.projects.earthworms.title') as string,
         description: this.$t('pages.gallery.plant-a-tree.projects.earthworms.description') as string,
-        size: ProjectSize.Base
+        width: ProjectWidths.Base
       },
       {
         color: '#F96464',
-        image: 'https://images.unsplash.com/photo-1535673774336-ef95d2851cf3?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1335&q=80',
+        image: projectsImages.project7,
         title: this.$t('pages.gallery.plant-a-tree.projects.japanese-cherry-tree.title') as string,
         description: this.$t('pages.gallery.plant-a-tree.projects.japanese-cherry-tree.description') as string,
-        size: ProjectSize.Base
+        width: ProjectWidths.Base
       },
     ];
   }
@@ -109,12 +117,77 @@ export default class GalleryPage extends Vue {
 
 <style lang="scss">
 .gallery-page {
+  .paint-a-tree,
+  .plant-a-tree {
+    h1 {
+      @include media-max('sm') {
+        position: relative;
+      }
+
+      &::before {
+        content: '';
+        display: inline-block;
+        vertical-align: middle;
+        width: 16rem;
+        height: 6rem;
+        margin-right: 2rem;
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position: center;
+        transform: translateY(-0.7rem);
+
+        @include media-max('sm') {
+          position: absolute;
+          top: 0;
+          left: 50%;
+          width: 6rem;
+          height: 3.8rem;
+          transform: translate(-50%, -100%);
+        }
+      }
+    }
+  }
+
+  .paint-a-tree {
+    h1 {
+      &::before {
+        background-image: url("~assets/pages/gallery/title-1.png");
+      }
+    }
+  }
+
+  .plant-a-tree {
+    h1 {
+      &::before {
+        background-image: url("~assets/pages/gallery/title-2.png");
+      }
+    }
+  }
+
+  .hands-image {
+    width: 100%;
+  }
+
   .instafeed-container {
-    a {
+    .instafeed-link {
+      overflow: hidden;
+      margin: 0 auto 4.8rem;
       width: 30%;
+      height: 31rem;
+
+      @include media-max('lg') {
+        width: 45%;
+      }
+
+      @include media-max('md') {
+        width: 100%;
+        height: 35rem;
+      }
 
       img {
+        object-fit: cover;
         width: 100%;
+        height: 100%;
       }
     }
   }

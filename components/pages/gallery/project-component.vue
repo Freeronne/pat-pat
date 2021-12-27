@@ -9,23 +9,18 @@
 <script lang="ts">
 import { Component, Prop, Vue } from 'nuxt-property-decorator'
 import { Project } from '~/types/pages/gallery'
-import { ProjectSize } from '~/constants/pages/gallery'
 
 @Component
 export default class GalleryPage extends Vue {
   @Prop({ type: Object, required: true }) project!: Project;
 
   get width() {
-    const baseWidth = this.$screen.lg ? 30 : 45;
-    const unit = '%';
-
-    switch (this.project.size) {
-      case ProjectSize.Base:
-        return `${baseWidth}${unit}`;
-      case ProjectSize.Large:
-        return `${this.$screen.lg ? baseWidth * 2 : baseWidth}${unit}`;
-      default:
-        return baseWidth;
+    if (this.$screen.lg) {
+      return this.project.width;
+    } else if (this.$screen.md) {
+      return '45%';
+    } else {
+      return '100%';
     }
   }
 }
@@ -33,6 +28,8 @@ export default class GalleryPage extends Vue {
 
 <style lang="scss">
 .project {
+  margin: 0 auto 4.8rem;
+
   img {
     object-fit: cover;
     display: block;
