@@ -1,7 +1,9 @@
 <template>
   <header>
     <div class="header-container container full-height d-flex justify--space-between align--center">
-      <img src="@/assets/layout/default/logo.png" alt="" class="logo">
+      <router-link :to="homeLink">
+        <img src="@/assets/layout/default/logo.png" alt="" class="logo">
+      </router-link>
 
       <div class="d-flex">
         <nuxt-link
@@ -31,9 +33,14 @@
 <script lang="ts">
 import { Component, mixins } from 'nuxt-property-decorator';
 import HeaderMixin from '~/mixins/layouts/default/header-mixin'
+import { Routes } from '~/constants/routes'
 
 @Component
-export default class DesktopHeaderComponent extends mixins(HeaderMixin) {}
+export default class DesktopHeaderComponent extends mixins(HeaderMixin) {
+  get homeLink() {
+    return this.localePath(Routes.Home.name, this.$i18n.locale);
+  }
+}
 </script>
 
 <style scoped lang="scss">
