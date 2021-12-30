@@ -101,9 +101,8 @@
       }
     },
     "people": {
-      "title": "A propos",
-      "bureau": {
-        "title": "Le bureau",
+      "association": {
+        "title": "L'association",
         "members": {
           "pascale": {
             "name": "Pascale Norris",
@@ -116,7 +115,10 @@
         }
       },
       "partners": {
-        "title": "Les éco-artistes",
+        "title": "Les éco-artistes"
+      },
+      "ambassadors": {
+        "title": "Les ambassadeurs",
         "text": "Les ambassadeurs de paintatreeplantatree présentent le programme aux enfants et plantent des arbres avec eux dans le monde entier."
       }
     },

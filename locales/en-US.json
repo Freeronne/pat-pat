@@ -101,8 +101,7 @@
       }
     },
     "people": {
-      "title": "About",
-      "bureau": {
+      "association": {
         "title": "The bureau",
         "members": {
           "pascale": {
@@ -116,7 +115,10 @@
         }
       },
       "partners": {
-        "title": "The eco-artists",
+        "title": "The eco-artists"
+      },
+      "ambassadors": {
+        "title": "Ambassadors",
         "text": "Paintatreeplantatree ambassadors are presenting the program to kids and planting trees with them around the world."
       }
     },
