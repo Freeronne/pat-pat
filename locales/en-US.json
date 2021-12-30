@@ -4,6 +4,7 @@
       "header": {
         "menu-links": {
           "home": "Homepage",
+          "program": "Program",
           "gallery": "The gallery",
           "people": "People",
           "contact": "Contact"
@@ -17,36 +18,39 @@
   },
   "pages": {
     "home": {
-      "welcome": {
-        "title": "Welcome to paintatreeplantatree",
-        "subtitle": "At paintatreeplantatree we paint trees, we plant trees and we even write some poetree.",
-        "lists": [
-          {
-            "label": "We wish to share with kids:",
-            "items": [
-              "the importance of trees around the world,",
-              "the joys of painting – especially trees, for the kids to get to know them better, their trunks, their leaves, their blossoms, their fruit, the birds singing from their branches, the butterflies perched on their leaves, the owls sheltered in their trunks…., and",
-              "the awe of planting a tree and watching it grow,"
-            ]
-          },
-          {
-            "label": "in the hope this will:",
-            "items": [
-              "strengthen the kids’ connection to their Mother Nature,",
-              "reinforce their dedication, now and later, to protecting our planet, and all of this",
-              "whilst creating art."
-            ]
-          }
-        ]
-      },
-      "program": {
-        "title": "The Program:",
+      "title": "Welcome to paintatreeplantatree",
+      "subtitle": "At paintatreeplantatree we paint trees, we plant trees and we even write some poetree.",
+      "lists": [
+        {
+          "label": "We wish to share with kids:",
+          "items": [
+            "the importance of trees around the world,",
+            "the joys of painting – especially trees, for the kids to get to know them better, their trunks, their leaves, their blossoms, their fruit, the birds singing from their branches, the butterflies perched on their leaves, the owls sheltered in their trunks…., and",
+            "the awe of planting a tree and watching it grow,"
+          ]
+        },
+        {
+          "label": "in the hope this will:",
+          "items": [
+            "strengthen the kids’ connection to their Mother Nature,",
+            "reinforce their dedication, now and later, to protecting our planet, and all of this",
+            "whilst creating art."
+          ]
+        }
+      ]
+    },
+    "program": {
+      "title": "The program:",
+      "texts": [
+        "The paintatreeplantatree program is perfect for kids aged 4 – 12 or so,",
+        "consists of workshops of approximately 1 hour that can be held on a monthly basis over one school year for example but also fitted into other programs for kids."
+      ],
+      "workshops": {
+        "title": "The workshops:",
         "texts": [
-          "<span class=\"bold\">The paintatreeplantatree program is perfect for kids aged 4 – 12 or so,</span>",
-          "consists of workshops of approximately 1 hour that can be held on a monthly basis over one school year for example but also fitted into other programs for kids.",
           "One tree is presented to the kids every workshop using paintatreeplantatree material, including for example the upside down tree, the umbrella tree and the Japanese cherry tree. Through this material, the kids learn interesting facts about the tree: where it grows, its fruit, its animal friends, its symbolism, its height and width, and most importantly, how it helps us human beings and its animal friends – the oxygen it produces, the shade and shelter it provides, the fruit it bears, the water it stores, the peace and quiet it offers, the medicine and music it makes and so much more.",
           "The kids are then asked to paint the tree in their fashion.  Using, acrylic, gouache, aquarelle, crayons, pencils, felt pens, their fingers, hands or feet and toes if they prefer - whatever they like - as long as paintatreeplantatree is provided with a photo of their art to exhibit on the <a href=\"https://www.instagram.com/paintatreeplantatree/\" target=\"_blank\">paintatreeplantatree Instagram gallery</a>!",
-          "And finally, the cherry tree on the cake, <span class=\"bold\">during one workshop, with the authorization of local authorities if necessary, all together we plant, guess what? a tree!/span>",
+          "And finally, the cherry tree on the cake, <span class=\"bold\">during one workshop, with the authorization of local authorities if necessary, all together we plant, guess what? a tree!</span>",
           "And day by day, year after year, watch it grow."
         ]
       }

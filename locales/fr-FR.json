@@ -4,7 +4,8 @@
       "header": {
         "menu-links": {
           "home": "Accueil",
-          "gallery": "La galllerie",
+          "program": "Programme",
+          "gallery": "Galllerie",
           "people": "L'équipe",
           "contact": "Contact"
         }
@@ -17,33 +18,36 @@
   },
   "pages": {
     "home": {
-      "welcome": {
-        "title": "Bienvenue chez paintatreeplantatree",
-        "subtitle": "Chez paintatreeplantatree, nous dessinons des arbres et nous plantons des arbres avec des enfants.",
-        "lists": [
-          {
-            "label": "Nous souhaitons partager avec les enfants :",
-            "items": [
-              "l'importance des arbres tant dans le monde que dans notre environnement proche,",
-              "les joies de la peinture – et en particulier celle des arbres, pour que les enfants apprennent à mieux connaître ceux-ci… leurs troncs, leurs feuilles, leurs fleurs, leurs fruits, les oiseaux qui chantent depuis leurs branches, les papillons posés sur leurs feuilles, les hiboux abrités dans leurs troncs…, et",
-              "l'émerveillement de planter un arbre puis de le regarder grandir."
-            ]
-          },
-          {
-            "label": "Notre espoir est que cela :",
-            "items": [
-              "renforce le lien des enfants avec Mère Nature,",
-              "renforce leur engagement, aujourd'hui et demain, pour la protection de notre planète, et tout cela en",
-              "développant leur fibre artistique."
-            ]
-          }
-        ]
-      },
-      "program": {
-        "title": "Le programme :",
+      "title": "Bienvenue chez paintatreeplantatree",
+      "subtitle": "Chez paintatreeplantatree, nous dessinons des arbres et nous plantons des arbres avec des enfants.",
+      "lists": [
+        {
+          "label": "Nous souhaitons partager avec les enfants :",
+          "items": [
+            "l'importance des arbres tant dans le monde que dans notre environnement proche,",
+            "les joies de la peinture – et en particulier celle des arbres, pour que les enfants apprennent à mieux connaître ceux-ci… leurs troncs, leurs feuilles, leurs fleurs, leurs fruits, les oiseaux qui chantent depuis leurs branches, les papillons posés sur leurs feuilles, les hiboux abrités dans leurs troncs…, et",
+            "l'émerveillement de planter un arbre puis de le regarder grandir."
+          ]
+        },
+        {
+          "label": "Notre espoir est que cela :",
+          "items": [
+            "renforce le lien des enfants avec Mère Nature,",
+            "renforce leur engagement, aujourd'hui et demain, pour la protection de notre planète, et tout cela en",
+            "développant leur fibre artistique."
+          ]
+        }
+      ]
+    },
+    "program": {
+      "title": "Le programme :",
+      "texts": [
+        "est parfaitement adapté aux enfants âgés de 4 à 12 ans,",
+        "consiste en des ateliers d'environ 1 heure qui peuvent être organisés sur une base mensuelle au cours d'une année scolaire par exemple. Les ateliers peuvent aussi s'intégrer dans d'autres programmes pour enfants."
+      ],
+      "workshops": {
+        "title": "Déroulement d'un atelier :",
         "texts": [
-          "<span class=\"bold\">est parfaitement adapté aux enfants âgés de 4 à 12 ans,</span>",
-          "consiste en des <span class=\"bold\">ateliers d'environ 1 heure qui peuvent être organisés sur une base mensuelle</span> au cours d'une année scolaire par exemple. Les ateliers peuvent aussi s'intégrer dans d'autres programmes pour enfants.",
           "Un arbre est présenté aux enfants à chaque atelier avec l'aide du matériel paintatreeplantatree. Les enfants découvrent par exemple l'arbre de vie, le pin parasol, le cerisier du Japon et bien d’autres spécimens. Grâce à ce matériel, les enfants apprennent des faits intéressants sur l'arbre étudié : où il pousse, ses fruits, ses amis animaux, son symbolisme, sa hauteur et sa largeur, et surtout, comment il nous aide, nous les êtres humains et ses amis animaux - l'oxygène qu'il fabrique, l'ombre et l'abri qu'il fournit, les fruits qu'il porte, l'eau qu'il stocke, la paix et le calme qu'il procure, les médicaments et la musique qu'il produit et bien d'autres choses encore.",
           "Les enfants sont ensuite invités à peindre l'arbre à leur manière.  Ils peuvent utiliser de l'acrylique, de la gouache, de l'aquarelle, des crayons de couleur, des feutres, leurs doigts, leurs mains ou leurs pieds s'ils préfèrent - tout ce qu'ils veulent - à condition que paintatreeplantatree reçoive une photo de leur œuvre pour l'exposer sur la <a href=\"https://www.instagram.com/paintatreeplantatree/\" target=\"_blank\">galerie Instagram de paintatreeplantatree</a> !",
           "Enfin, et cerisier sur le gâteau, <span class=\"bold\">le temps d'un atelier et avec l'autorisation des autorités locales si nécessaire, nous plantons tous ensemble, devinez quoi ? Un arbre !</span>",

@@ -3,10 +3,10 @@
     <img src="@/assets/pages/home/tree.png" alt="" class="tree-image">
 
     <div class="welcome-card card mb-8">
-      <h1 class="text--primary">{{ $t('pages.home.welcome.title') }}</h1>
-      <p class="mb-8">{{ $t('pages.home.welcome.subtitle') }}</p>
+      <h1 class="text--primary">{{ $t('pages.home.title') }}</h1>
+      <p class="mb-8">{{ $t('pages.home.subtitle') }}</p>
 
-      <div v-for="list in $t('pages.home.welcome.lists')" :key="list.label">
+      <div v-for="list in $t('pages.home.lists')" :key="list.label">
         <p class="bold">{{ list.label }}</p>
         <ul>
           <li v-for="item in list.items" :key="item">{{ item }}</li>
@@ -14,11 +14,6 @@
       </div>
 
       <img src="@/assets/pages/common/birds.png" alt="" class="birds-image">
-    </div>
-
-    <div class="card">
-      <h1 class="text--primary">{{ $t('pages.home.program.title') }}</h1>
-      <p v-for="text in $t('pages.home.program.texts')" :key="text" v-html="text" class="mb-5" />
     </div>
   </div>
 </template>
@@ -47,7 +42,7 @@ export default class HomePage extends Vue {}
     z-index: 1;
     position: absolute;
     top: 6rem;
-    left: -2rem;
+    left: -3rem;
     width: 46rem;
 
     @include media-max('xl') {
