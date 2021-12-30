@@ -9,10 +9,10 @@
       </div>
     </div>
 
-    <img src="@/assets/pages/gallery/hands.png" alt="" class="hands-image mt-16">
+    <img src="@/assets/pages/gallery/hands.png" alt="" class="hands-image">
 
     <div class="plant-a-tree">
-      <h1 class="mt-15">{{ $t('pages.gallery.plant-a-tree.title') }}</h1>
+      <h1>{{ $t('pages.gallery.plant-a-tree.title') }}</h1>
       <h2 class="mb-10 text--center fs--large">{{ $t('pages.gallery.plant-a-tree.subtitle') }}</h2>
 
       <div class="d-flex justify--center flex-wrap">
@@ -21,8 +21,7 @@
     </div>
 
     <div>
-      <h3 class="mt-15 fs--extra-large">{{ $t('pages.gallery.instagram.title') }}</h3>
-      <h4 class="text--center fs--large">{{ $t('pages.gallery.instagram.subtitle') }}</h4>
+      <h3 class="fs--extra-large">{{ $t('pages.gallery.instagram.title') }}</h3>
     </div>
 
     <div id="instafeed" class="instafeed-container container d-flex flex-wrap justify--space-between" />
@@ -149,6 +148,11 @@ export default class GalleryPage extends Vue {
   }
 
   .paint-a-tree {
+    h1,
+    h2 {
+      color: #D66761;
+    }
+
     h1 {
       &::before {
         background-image: url("~assets/pages/gallery/title-1.png");
@@ -157,6 +161,11 @@ export default class GalleryPage extends Vue {
   }
 
   .plant-a-tree {
+    h1,
+    h2 {
+      color: #7CC197;
+    }
+
     h1 {
       &::before {
         background-image: url("~assets/pages/gallery/title-2.png");
@@ -166,6 +175,11 @@ export default class GalleryPage extends Vue {
 
   .hands-image {
     width: 100%;
+    margin-bottom: 4.8rem;
+
+    @include media-max('sm') {
+      margin-bottom: 6.8rem;
+    }
   }
 
   .instafeed-container {

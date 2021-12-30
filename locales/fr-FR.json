@@ -5,7 +5,7 @@
         "menu-links": {
           "home": "Accueil",
           "program": "Programme",
-          "gallery": "Galllerie",
+          "gallery": "Gallerie",
           "people": "L'équipe",
           "contact": "Contact"
         }
@@ -97,8 +97,7 @@
         }
       },
       "instagram": {
-        "title": "Rejoignez-nous sur instagram!",
-        "subtitle": "Nous y postons du contenu régulièrement"
+        "title": "Rejoignez-nous sur instagram !"
       }
     },
     "people": {
