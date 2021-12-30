@@ -47,10 +47,11 @@ export default class HomePage extends Vue {}
     z-index: 1;
     position: absolute;
     top: 6rem;
-    left: 0;
+    left: -2rem;
     width: 46rem;
 
     @include media-max('xl') {
+      left: 0;
       width: 29.5rem;
     }
 
