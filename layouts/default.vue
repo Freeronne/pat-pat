@@ -39,6 +39,9 @@ export default class DefaultLayout extends Vue {
     flex: 1;
     background-color: #f4f2ea;
     background-image: url("~assets/layout/default/content-background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
 
     .content {
       color: var(--color-base-text);
