@@ -1,4 +1,5 @@
 import { Component, Vue } from 'nuxt-property-decorator'
+import { LocaleObject } from '@nuxtjs/i18n'
 import { Routes } from '~/constants/routes'
 
 @Component
@@ -29,6 +30,6 @@ export default class HeaderMixin extends Vue {
   }
 
   get availableLocales() {
-    return (this.$i18n.locales as string[]).filter(i => i !== this.$i18n.locale);
+    return (this.$i18n.locales as LocaleObject[]).map(locale => locale.code).filter(i => i !== this.$i18n.locale);
   }
 }

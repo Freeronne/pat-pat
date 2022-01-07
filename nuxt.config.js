@@ -3,20 +3,24 @@ export default {
   target: 'static',
 
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'pat-pat',
-    htmlAttrs: {
-      lang: 'en'
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
-    ]
+  head() {
+    const i18nHead = this.$nuxtI18nHead ? this.$nuxtI18nHead({ addSeoAttributes: true }) : null;
+    return {
+      title: 'Paintatreeplantatree',
+      htmlAttrs: {
+        ...(i18nHead && i18nHead.htmlAttrs),
+      },
+      meta: [
+        { charset: 'utf-8' },
+        { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+        { name: 'format-detection', content: 'telephone=no' },
+        ...(i18nHead ? [...i18nHead.meta] : []),
+      ],
+      link: [
+        { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+        ...(i18nHead ? [...i18nHead.link] : []),
+      ]
+    };
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
@@ -65,7 +69,11 @@ export default {
 
   // i18n configuration: https://i18n.nuxtjs.org/
   i18n: {
-    locales: ['fr', 'en'],
+    baseUrl: 'https://pat-pat.netlify.app', // TODO: Update with real domain name
+    locales: [
+      { code: 'fr', iso: 'fr-FR' },
+      { code: 'en', iso: 'en-US' }
+    ],
     defaultLocale: 'fr',
     vueI18n: {
       fallbackLocale: 'fr',
