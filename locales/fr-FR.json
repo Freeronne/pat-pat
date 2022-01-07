@@ -18,6 +18,10 @@
   },
   "pages": {
     "home": {
+      "head": {
+        "title": "Bienvenue",
+        "description": "Paintatreeplantatree est une association qui vise à sensibiliser les enfants à l'importance et à la beauté des arbres."
+      },
       "title": "Bienvenue chez paintatreeplantatree",
       "subtitle": "Chez paintatreeplantatree, nous dessinons des arbres et nous plantons des arbres avec des enfants.",
       "lists": [
@@ -40,6 +44,10 @@
       ]
     },
     "program": {
+      "head": {
+        "title": "Le programme",
+        "description": "Le programme consiste en des ateliers au cours desquels les enfants découvrent les arbres, dessinent les arbres et plantent un arbre."
+      },
       "title": "Le programme paintatreeplantatree :",
       "texts": [
         "est parfaitement adapté aux enfants âgés de 6 à 12 ans,",
@@ -56,6 +64,10 @@
       }
     },
     "gallery": {
+      "head": {
+        "title": "Gallerie",
+        "description": "Photos des arbres peints et plantés par les jeunes éco-artistes de paintatreeplantatree."
+      },
       "paint-a-tree": {
         "title": "Peindre un arbre",
         "subtitle": "Peintures de nos jeunes éco-artistes sur la galerie Instagram paintatreeplantatree",
@@ -101,6 +113,10 @@
       }
     },
     "people": {
+      "head": {
+        "title": "Equipe",
+        "description": "L'association paintatreeplantatree, les éco-artistes et les ambassadeurs."
+      },
       "association": {
         "title": "L'association",
         "members": {
@@ -123,6 +139,10 @@
       }
     },
     "contact": {
+      "head": {
+        "title": "Contact",
+        "description": "Nos informations de contact."
+      },
       "title": "Nous contacter",
       "texts": [
         "paintatreeplantatree",

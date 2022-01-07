@@ -32,6 +32,7 @@
 import Instafeed from 'instafeed.js'
 import { Component, Vue } from 'nuxt-property-decorator'
 import { Project } from '~/types/pages/gallery'
+import { HeadValues } from '~/types/seo'
 import ProjectComponent from '~/components/pages/gallery/project-component.vue'
 import { ProjectWidths } from '~/constants/pages/gallery'
 import projectsImages from '@/assets/pages/gallery/projects';
@@ -40,6 +41,19 @@ import projectsImages from '@/assets/pages/gallery/projects';
   components: { ProjectComponent }
 })
 export default class GalleryPage extends Vue {
+  head() {
+    return {
+      title: this.headValues.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.headValues.description,
+        },
+      ],
+    }
+  }
+
   mounted() {
     const feed = new Instafeed({
       accessToken: process.env.INSTAFEED_ACCESS_TOKEN,
@@ -51,6 +65,13 @@ export default class GalleryPage extends Vue {
       `,
     });
     feed.run();
+  }
+
+  get headValues(): HeadValues {
+    return {
+      title: this.$t('pages.gallery.head.title') as string,
+      description: this.$t('pages.gallery.head.description') as string,
+    }
   }
 
   get paintATreeItems(): Project[] {

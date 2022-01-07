@@ -28,6 +28,7 @@
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
 import { Member } from '~/types/pages/people'
+import { HeadValues } from '~/types/seo'
 import BureauMemberCard from '~/components/pages/people/bureau-member-card.vue'
 import BureauMembersImages from '~/assets/pages/people/bureau-members';
 import PartnersImages from '~/assets/pages/people/partners';
@@ -36,6 +37,26 @@ import PartnersImages from '~/assets/pages/people/partners';
   components: { BureauMemberCard }
 })
 export default class PeoplePage extends Vue {
+  head() {
+    return {
+      title: this.headValues.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.headValues.description,
+        },
+      ],
+    }
+  }
+
+  get headValues(): HeadValues {
+    return {
+      title: this.$t('pages.people.head.title') as string,
+      description: this.$t('pages.people.head.description') as string,
+    }
+  }
+
   get bureauMembers(): Member[] {
     return [
       {

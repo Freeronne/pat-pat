@@ -18,6 +18,10 @@
   },
   "pages": {
     "home": {
+      "head": {
+        "title": "Welcome",
+        "description": "Paintatreeplantatree is an association that aims to promote the importance and beauty of trees to kids. "
+      },
       "title": "Welcome to paintatreeplantatree",
       "subtitle": "At paintatreeplantatree we paint trees, we plant trees and we even write some poetree.",
       "lists": [
@@ -40,6 +44,10 @@
       ]
     },
     "program": {
+      "head": {
+        "title": "The program",
+        "description": "The program consists of workshops during which the kids learn about trees, paint trees and plant a tree."
+      },
       "title": "The paintatreeplantatree program:",
       "texts": [
         "is perfect for kids aged 6 – 12 or so,",
@@ -56,6 +64,10 @@
       }
     },
     "gallery": {
+      "head": {
+        "title": "Gallery",
+        "description": "Photos of the trees painted and planted by the paintatreeplantatree young eco-artists."
+      },
       "paint-a-tree": {
         "title": "Paint a Tree",
         "subtitle": "Paintings of our young eco-artists on the Instagram paintatreeplantatree gallery",
@@ -101,6 +113,10 @@
       }
     },
     "people": {
+      "head": {
+        "title": "Team",
+        "description": "The paintatreeplantatree association, the eco-artists and ambassadors."
+      },
       "association": {
         "title": "The association",
         "members": {
@@ -123,6 +139,10 @@
       }
     },
     "contact": {
+      "head": {
+        "title": "Contact",
+        "description": "Our contact information."
+      },
       "title": "Contact us",
       "texts": [
         "paintatreeplantatree",

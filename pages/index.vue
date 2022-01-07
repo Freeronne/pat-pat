@@ -20,9 +20,30 @@
 
 <script lang="ts">
 import { Component, Vue } from 'nuxt-property-decorator';
+import { HeadValues } from '~/types/seo'
 
 @Component
-export default class HomePage extends Vue {}
+export default class HomePage extends Vue {
+  head() {
+    return {
+      title: this.headValues.title,
+      meta: [
+        {
+          hid: 'description',
+          name: 'description',
+          content: this.headValues.description,
+        },
+      ],
+    }
+  }
+
+  get headValues(): HeadValues {
+    return {
+      title: this.$t('pages.home.head.title') as string,
+      description: this.$t('pages.home.head.description') as string,
+    }
+  }
+}
 </script>
 
 <style scoped lang="scss">
