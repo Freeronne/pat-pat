@@ -69,7 +69,7 @@ export default {
 
   // i18n configuration: https://i18n.nuxtjs.org/
   i18n: {
-    baseUrl: 'https://pat-pat.netlify.app', // TODO: Update with real domain name
+    baseUrl: 'https://paintatreeplantatree.org',
     locales: [
       { code: 'fr', iso: 'fr-FR' },
       { code: 'en', iso: 'en-US' }
