@@ -1,7 +1,9 @@
 <template>
   <div class="mobile-header-wrapper">
     <header class="d-flex justify--space-between align--center full-height">
-      <img src="@/assets/layout/default/logo.png" alt="" class="logo">
+      <router-link :to="homeLink">
+        <img src="@/assets/layout/default/logo.png" alt="" class="logo">
+      </router-link>
 
       <button
         type="button"
@@ -40,6 +42,7 @@
 
 <script lang="ts">
 import { Component, mixins, Watch } from 'nuxt-property-decorator';
+import { Routes } from '~/constants/routes'
 import HeaderMixin from '~/mixins/layouts/default/header-mixin'
 
 @Component
@@ -53,6 +56,10 @@ export default class MobileHeaderComponent extends mixins(HeaderMixin) {
 
   toggleMenuActive() {
     this.isMenuActive = !this.isMenuActive;
+  }
+
+  get homeLink() {
+    return this.localePath(Routes.Home.name, this.$i18n.locale);
   }
 
   get linksClasses() {
