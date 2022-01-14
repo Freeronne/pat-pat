@@ -5,7 +5,7 @@
         "menu-links": {
           "home": "Accueil",
           "program": "Programme",
-          "gallery": "Gallerie",
+          "gallery": "Galerie",
           "people": "L'équipe",
           "contact": "Contact"
         }
@@ -54,7 +54,7 @@
         "consiste en des ateliers d'environ 1 heure qui peuvent être organisés sur une base mensuelle au cours d'une année scolaire par exemple. Les ateliers peuvent aussi s'intégrer dans d'autres programmes pour enfants."
       ],
       "workshops": {
-        "title": "Déroulement d'un atelier :",
+        "title": "Déroulement d'un atelier",
         "texts": [
           "Un arbre est présenté aux enfants à chaque atelier avec l'aide du matériel paintatreeplantatree. Les enfants découvrent par exemple l'arbre de vie, le pin parasol, le cerisier du Japon et bien d’autres spécimens. Grâce à ce matériel, les enfants apprennent des faits intéressants sur l'arbre étudié : où il pousse, ses fruits, ses amis animaux, son symbolisme, sa hauteur et sa largeur, et surtout, comment il nous aide, nous les êtres humains et ses amis animaux - l'oxygène qu'il fabrique, l'ombre et l'abri qu'il fournit, les fruits qu'il porte, l'eau qu'il stocke, la paix et le calme qu'il procure, les médicaments et la musique qu'il produit et bien d'autres choses encore.",
           "Les enfants sont ensuite invités à peindre l'arbre à leur manière.  Ils peuvent utiliser de l'acrylique, de la gouache, de l'aquarelle, des crayons de couleur, des feutres, leurs doigts, leurs mains ou leurs pieds s'ils préfèrent - tout ce qu'ils veulent - à condition que paintatreeplantatree reçoive une photo de leur œuvre pour l'exposer sur la galerie Instagram de paintatreeplantatree !",
@@ -65,7 +65,7 @@
     },
     "gallery": {
       "head": {
-        "title": "Gallerie",
+        "title": "Galerie",
         "description": "Photos des arbres peints et plantés par les jeunes éco-artistes de paintatreeplantatree."
       },
       "paint-a-tree": {
