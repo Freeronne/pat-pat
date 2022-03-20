@@ -18,11 +18,11 @@
         <div class="d-flex align--center ml-5">
           <nuxt-link
             v-for="locale in availableLocales"
-            :key="locale"
-            :to="switchLocalePath(locale)"
+            :key="locale.value"
+            :to="switchLocalePath(locale.value)"
             class="fs--base text--no-decoration text--uppercase"
           >
-            {{ locale }}
+            {{ locale.label }}
           </nuxt-link>
         </div>
       </div>

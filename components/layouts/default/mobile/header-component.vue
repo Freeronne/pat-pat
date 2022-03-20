@@ -29,11 +29,11 @@
 
         <nuxt-link
           v-for="locale in availableLocales"
-          :key="locale"
-          :to="switchLocalePath(locale)"
+          :key="locale.value"
+          :to="switchLocalePath(locale.value)"
           :class="linksClasses"
         >
-          {{ locale }}
+          {{ locale.label }}
         </nuxt-link>
       </div>
     </transition>

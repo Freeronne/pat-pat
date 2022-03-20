@@ -30,6 +30,13 @@ export default class HeaderMixin extends Vue {
   }
 
   get availableLocales() {
-    return (this.$i18n.locales as LocaleObject[]).map(locale => locale.code).filter(i => i !== this.$i18n.locale);
+    const formattedLocales: { [key: string]: string } = {
+      fr: 'Français',
+      en: 'Anglais',
+    }
+
+    return (this.$i18n.locales as LocaleObject[])
+      .filter(locale => locale.code !== this.$i18n.locale)
+      .map(locale => ({ label: formattedLocales[locale.code], value: locale.code }));
   }
 }
