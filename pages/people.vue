@@ -13,7 +13,7 @@
     <div class="mb-16">
       <h1>{{ $t('pages.people.partners.title') }}</h1>
 
-      <div class="people-container d-flex flex-wrap justify--space-between align--center">
+      <div class="partners-container d-flex flex-wrap justify--space-between align--center">
         <img v-for="partnersImage in partnersImages" :key="partnersImage" :src="partnersImage" alt="">
       </div>
     </div>
@@ -85,7 +85,8 @@ h1 {
   color: #70C8E5;
 }
 
-.people-container {
+.people-container,
+.partners-container {
   & > * {
     width: 27%;
 
@@ -93,6 +94,13 @@ h1 {
       margin: 32px auto 32px; // TODO: Use extends
       width: 75%;
     }
+  }
+}
+
+.partners-container {
+  & > * {
+    max-height: 20rem;
+    object-fit: contain;
   }
 }
 </style>
