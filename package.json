@@ -17,7 +17,7 @@
     "*.{css,vue}": "stylelint"
   },
   "dependencies": {
-    "@nuxtjs/i18n": "^7.2.0",
+    "@nuxtjs/i18n": "^7.2.2",
     "@nuxtjs/style-resources": "^1.2.1",
     "core-js": "^3.21.1",
     "instafeed.js": "^2.0.0",
