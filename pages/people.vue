@@ -13,7 +13,7 @@
     <div class="mb-16">
       <h1>{{ $t('pages.people.partners.title') }}</h1>
 
-      <div class="partners-container d-flex flex-wrap justify--space-between align--center">
+      <div class="partners-container d-flex flex-wrap justify--center align--center">
         <img v-for="partnersImage in partnersImages" :key="partnersImage" :src="partnersImage" alt="">
       </div>
     </div>
@@ -75,7 +75,13 @@ export default class PeoplePage extends Vue {
   }
 
   get partnersImages() {
-    return [PartnersImages.partner1, PartnersImages.partner2, PartnersImages.partner3];
+    return [
+      PartnersImages.partner1,
+      PartnersImages.partner2,
+      PartnersImages.partner3,
+      PartnersImages.partner4,
+      PartnersImages.partner5
+    ];
   }
 }
 </script>
@@ -99,8 +105,15 @@ h1 {
 
 .partners-container {
   & > * {
+    flex: 0 0 calc(33.33%);
+    margin-bottom: 5rem;
     max-height: 20rem;
     object-fit: contain;
+
+    // TODO: Update number depending items
+    &:nth-last-child(-n + 2) {
+      margin-bottom: 0;
+    }
   }
 }
 </style>
