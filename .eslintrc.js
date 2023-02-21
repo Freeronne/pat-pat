@@ -11,6 +11,6 @@ module.exports = {
   ],
   plugins: [
   ],
-  // add your custom rules here
+  // You can add your custom rules here
   rules: {}
 }
