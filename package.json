@@ -19,7 +19,7 @@
   "dependencies": {
     "@nuxtjs/i18n": "^7.3.1",
     "@nuxtjs/style-resources": "^1.2.1",
-    "core-js": "^3.21.1",
+    "core-js": "^3.28.0",
     "instafeed.js": "^2.0.0",
     "nuxt": "^2.15.7",
     "nuxt-property-decorator": "^2.9.1",
