@@ -14,7 +14,10 @@
       <h1>{{ $t('pages.people.partners.title') }}</h1>
 
       <div class="partners-container d-flex flex-wrap justify--center align--center">
-        <img v-for="partnersImage in partnersImages" :key="partnersImage" :src="partnersImage" alt="">
+        <div v-for="partner in partners" :key="partner.image">
+          <img :src="partner.image" :alt="partner.text" class="partner-img">
+          <p v-if="partner.text" class="mt-3">{{ partner.text }}</p>
+        </div>
       </div>
     </div>
 
@@ -74,13 +77,13 @@ export default class PeoplePage extends Vue {
     ]
   }
 
-  get partnersImages() {
+  get partners() {
     return [
-      PartnersImages.partner1,
-      PartnersImages.partner2,
-      PartnersImages.partner3,
-      PartnersImages.partner4,
-      PartnersImages.partner5
+      { image: PartnersImages.partner1, text: '' },
+      { image: PartnersImages.partner2, text: '' },
+      { image: PartnersImages.partner3, text: '' },
+      { image: PartnersImages.partner4, text: 'West Horndon Primary School' },
+      { image: PartnersImages.partner5, text: 'La Retraite Roman Catholic Girls’ School' },
     ];
   }
 }
@@ -107,8 +110,21 @@ h1 {
   & > * {
     flex: 0 0 calc(33.33%);
     margin-bottom: 5rem;
-    max-height: 20rem;
-    object-fit: contain;
+    text-align: center;
+
+    @include media-max('md') {
+      flex: 0 0 calc(45%);
+    }
+
+    @include media-max('sm') {
+      flex: 0 0 calc(100%);
+    }
+
+    .partner-img {
+      height: 20rem;
+      width: 100%;
+      object-fit: contain;
+    }
 
     // TODO: Update number depending items
     &:nth-last-child(-n + 2) {
