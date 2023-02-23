@@ -93,15 +93,15 @@ export default class GalleryPage extends Vue {
       {
         color: '#D66761',
         image: projectsImages.project3,
-        title: this.$t('pages.gallery.paint-a-tree.projects.japanese-cherry-tree.title') as string,
-        description: this.$t('pages.gallery.paint-a-tree.projects.japanese-cherry-tree.description') as string,
+        title: this.$t('pages.gallery.paint-a-tree.projects.apple-tree.title') as string,
+        description: this.$t('pages.gallery.paint-a-tree.projects.apple-tree.description') as string,
         width: ProjectWidths.Base
       },
       {
         color: '#BAB6D3',
         image: projectsImages.project4,
-        title: this.$t('pages.gallery.paint-a-tree.projects.japanese-cherry-tree-2.title') as string,
-        description: this.$t('pages.gallery.paint-a-tree.projects.japanese-cherry-tree-2.description') as string,
+        title: this.$t('pages.gallery.paint-a-tree.projects.silver-birches.title') as string,
+        description: this.$t('pages.gallery.paint-a-tree.projects.silver-birches.description') as string,
         width: ProjectWidths.Large
       },
     ];
