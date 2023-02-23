@@ -1,5 +1,10 @@
 # pat-pat
 
+## Generate new Instafeed.js token
+Go to [this page](https://developers.facebook.com/apps/433896358241048/instagram-basic-display/basic-display/) & click on "Generate Token" for `paintatreeplantatree` Instagram Test User.
+
+Past it into secrets of your `.env` & on Netlify for deploys. 
+
 ## Build Setup
 
 ```bash
